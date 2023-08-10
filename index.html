@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <div class="bgParallax">
+        <video class="bgParallax-video" playsinline muted autoplay loop>
+          <source src="assets/video/bg_movie.mp4" type="video/mp4">
+        </video>
+    </div>
+    
     <header class="header">
         <div class="header-inner">
             <h2 class="nav-title">
@@ -30,6 +36,12 @@
                     </li>
                 </ul>
             </nav>
+            <div class="nav-title">
+                <p class="sound">SOUND OFF</p>
+            </div>
+            <audio id="js-audio" loop>
+                <source src="assets/audio/bg_audio.mp3" type="audio/mp3">
+            </audio>
         </div>
     </header>
     <main>
@@ -115,7 +127,7 @@
                     TRAILER
                 </h2>
                 <div class="trailer-video">
-
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lpEL1Nt6rJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
         </section>
