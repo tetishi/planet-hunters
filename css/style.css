@@ -31,6 +31,10 @@ a {
   text-decoration: none;
 }
 
+.sp-img {
+  display: none;
+}
+
 .bgParallax {
   position: fixed;
   top: 0;
@@ -39,10 +43,70 @@ a {
   z-index: -1;
 }
 
+.bgParallax::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.5) 50%);
+  background-size: 4px 4px;
+}
+
+.play-btn {
+  display: block;
+  width: 164px;
+  color: #000;
+  background-color: #00FFF5;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  text-align: center;
+  padding: 15px 0;
+}
+
 .header {
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
   z-index: 999;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 0 30px;
+}
+
+.header-nav .header-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.header-nav .header-list .header-item {
+  margin-right: 30px;
+  color: #00FFF5;
+}
+
+.header-nav .header-list .header-item:last-of-type {
+  margin-right: 0;
+  color: #000;
+}
+
+.nav-sound {
+  display: flex;
+  color: #BFBFBF;
+  position: absolute;
+  right: 30px;
+  top: 100px;
+}
+
+.nav-sound .sound {
+  margin-right: 8px;
+  font-size: 1.3rem;
 }
