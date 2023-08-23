@@ -170,13 +170,9 @@ a {
     background-image: url(../assets/img/bg_story.jpg);
     background-size: cover;
     background-position: center;
-    padding: 120px 0 123px;
+    padding: 1;
     .story-container {
         display: flex;
-        justify-content: space-between;
-        &:first-of-type {
-            margin-bottom: 83px;
-        }
     }
     .section-title {
         color: $main-color;

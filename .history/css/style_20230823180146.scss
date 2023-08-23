@@ -173,9 +173,8 @@ a {
     padding: 120px 0 123px;
     .story-container {
         display: flex;
-        justify-content: space-between;
         &:first-of-type {
-            margin-bottom: 83px;
+            margin-bottom: 83;
         }
     }
     .section-title {

@@ -23,8 +23,6 @@ img {
 .section-title {
     font-size: 8rem;
     font-weight: bold;
-    letter-spacing: .05em;
-    line-height: 1;
 }
 a {
     color: inherit;
@@ -170,13 +168,8 @@ a {
     background-image: url(../assets/img/bg_story.jpg);
     background-size: cover;
     background-position: center;
-    padding: 120px 0 123px;
     .story-container {
         display: flex;
-        justify-content: space-between;
-        &:first-of-type {
-            margin-bottom: 83px;
-        }
     }
     .section-title {
         color: $main-color;
@@ -186,13 +179,10 @@ a {
             width: 80px;
             height: 8px;
             position: absolute;
-            left: 0;
-            bottom: -22px;
-            background-color: $main-color;
+
         }
     }
     .story-title {
         font-size: 3.2rem;
-        margin: 70px 0 30px;
     }
 }
