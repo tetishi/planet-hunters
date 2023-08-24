@@ -303,3 +303,8 @@ a {
   padding: 0 30px;
   height: 110px;
 }
+
+.footer .footer-inner .footer-list {
+  display: flex;
+  align-items: center;
+}
