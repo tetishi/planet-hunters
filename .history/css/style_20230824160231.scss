@@ -16,9 +16,9 @@ img {
     vertical-align: bottom;
 }
 .section-inner {
-    max-width: 1160px;
+    width: 1100px;
     padding: 0 20px;
-    margin: 0 auto;
+    // margin: 0 auto;
 }
 .section-title {
     font-size: 8rem;
@@ -174,17 +174,10 @@ a {
     .story-container {
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        gap: 80px;
         &:first-of-type {
             margin-bottom: 83px;
         }
     }
-
-    .description-container {
-        width: 50%;
-    }
-
     .section-title {
         color: $main-color;
         position: relative;
@@ -201,20 +194,9 @@ a {
     .story-title {
         font-size: 3.2rem;
         margin: 70px 0 30px;
-        font-weight: 900;
     }
+}
 
-    .story-description {
-        font-weight: 500;
-    }
-
-    .story-image {
-        transform: skew(-5deg, 0deg);
-        box-shadow: 7px 7px $main-color;
-        width: 40%;
-        &:first-of-type {
-            transform: skew(5deg, 0deg);
-            box-shadow: -7px 7px $main-color;
-        }
-    }
+.story-image {
+    transf
 }

@@ -16,7 +16,7 @@ img {
     vertical-align: bottom;
 }
 .section-inner {
-    max-width: 1160px;
+    width: 1160px;
     padding: 0 20px;
     margin: 0 auto;
 }
@@ -176,6 +176,7 @@ a {
         justify-content: space-between;
         align-items: center;
         gap: 80px;
+        f
         &:first-of-type {
             margin-bottom: 83px;
         }
@@ -204,9 +205,7 @@ a {
         font-weight: 900;
     }
 
-    .story-description {
-        font-weight: 500;
-    }
+    .story-description
 
     .story-image {
         transform: skew(-5deg, 0deg);
