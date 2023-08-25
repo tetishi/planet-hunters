@@ -168,18 +168,16 @@ a {
         // display: inline-block;
         width: 360px;
         margin-left: auto;
-        overflow: hidden;
 
 
         .news {
             font-size: 1.4rem;
             font-weight: bold;
             white-space: nowrap;
-            padding: 8px 0 8px 100%;
+            padding: 8px 0;
 
-            display: inline-block;
-            animation: loop-slide 15s linear infinite;
-            list-style: none;
+            
+            animation: loop-slide 20s infinite linear 1s both;
             @keyframes loop-slide {
                 from {
                     transform: translateX(0);
@@ -212,28 +210,7 @@ a {
             border-radius: 50%;
             position: absolute;
             left: -13px;
-            top: -9px;
-            display: inline-block;
-            animation: loop-scroll 2s ease-in-out infinite, scroll-hide 2s ease-in-out infinite;
-            @keyframes loop-scroll {
-                from {
-                    transform: translateY(0);
-                }
-                to {
-                    transform: translateY(45px);
-                }
-            }
-            @keyframes scroll-hide {
-                0% {
-                    opacity: 0;
-                }
-                50% {
-                    opacity: 1;
-                }
-                100% {
-                    opacity: 0;
-                }
-            }
+            bottom: 6px;
         }
         &::after {
             content: '';

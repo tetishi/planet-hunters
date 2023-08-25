@@ -213,6 +213,7 @@ a {
             position: absolute;
             left: -13px;
             top: -9px;
+
             display: inline-block;
             animation: loop-scroll 2s ease-in-out infinite, scroll-hide 2s ease-in-out infinite;
             @keyframes loop-scroll {

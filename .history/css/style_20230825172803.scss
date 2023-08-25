@@ -212,26 +212,13 @@ a {
             border-radius: 50%;
             position: absolute;
             left: -13px;
-            top: -9px;
+            bottom: 6px;
+
             display: inline-block;
-            animation: loop-scroll 2s ease-in-out infinite, scroll-hide 2s ease-in-out infinite;
+            animation: loop-scroll 8s linear infinite;
             @keyframes loop-scroll {
                 from {
-                    transform: translateY(0);
-                }
-                to {
-                    transform: translateY(45px);
-                }
-            }
-            @keyframes scroll-hide {
-                0% {
-                    opacity: 0;
-                }
-                50% {
-                    opacity: 1;
-                }
-                100% {
-                    opacity: 0;
+                    transform: translateY();
                 }
             }
         }

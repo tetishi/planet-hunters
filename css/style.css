@@ -172,16 +172,29 @@ a {
 
 .fv .fv-right-wrapper {
   text-align: right;
+  border: 1px solid #00FFF5;
+  width: 360px;
+  margin-left: auto;
+  overflow: hidden;
 }
 
 .fv .fv-right-wrapper .news {
   font-size: 1.4rem;
   font-weight: bold;
-  border: 1px solid #00FFF5;
-  display: inline-block;
-  width: 360px;
-  padding: 8px 0;
   white-space: nowrap;
+  padding: 8px 0 8px 100%;
+  display: inline-block;
+  animation: loop-slide 15s linear infinite;
+  list-style: none;
+}
+
+@keyframes loop-slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
 
 .fv .fv-right-wrapper .news .update {
@@ -207,7 +220,30 @@ a {
   border-radius: 50%;
   position: absolute;
   left: -13px;
-  bottom: 6px;
+  top: -9px;
+  display: inline-block;
+  animation: loop-scroll 2s ease-in-out infinite, scroll-hide 2s ease-in-out infinite;
+}
+
+@keyframes loop-scroll {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(45px);
+  }
+}
+
+@keyframes scroll-hide {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .fv .scroll::after {

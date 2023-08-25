@@ -212,7 +212,9 @@ a {
             border-radius: 50%;
             position: absolute;
             left: -13px;
+            // bottom: 6px;
             top: -9px;
+
             display: inline-block;
             animation: loop-scroll 2s ease-in-out infinite, scroll-hide 2s ease-in-out infinite;
             @keyframes loop-scroll {
@@ -230,9 +232,7 @@ a {
                 50% {
                     opacity: 1;
                 }
-                100% {
-                    opacity: 0;
-                }
+                100
             }
         }
         &::after {
