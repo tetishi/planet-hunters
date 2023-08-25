@@ -63,19 +63,6 @@ a {
     cursor: pointer;
 }
 
-.section-top {
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.section-bottom {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
-
-
 // header
 .header {
     position: fixed;
@@ -127,12 +114,9 @@ a {
 
 //fv
 .fv {
-    // display: flex;
-    position: relative;
-    padding-bottom: 70px;
+    display: flex;
     .fv-left-wrapper {
         margin-top: 180px;
-        margin-bottom: 79px;
     }
     .page-title-above {
         font-size: 3.2rem;
@@ -159,7 +143,6 @@ a {
 
     .fv-right-wrapper {
         text-align: right;
-        // margin-bottom: 70px;
         .news {
             font-size: 1.4rem;
             font-weight: bold;
@@ -179,29 +162,6 @@ a {
         font-size: 1.3rem;
         font-weight: bold;
         color: $main-color;
-        position: absolute;
-        bottom: 47px;
-        // left: 15px; 
-        left: 30px;
-        &::before {
-            content: '';
-            width: 10px;
-            height: 10px;
-            background-color: $main-color;
-            border-radius: 50%;
-            position: absolute;
-            left: -13px;
-            bottom: 6px;
-        }
-        &::after {
-            content: '';
-            left: -8px;
-            bottom: -8px;
-            position: absolute;
-            background-color: $main-color;
-            height: 50px;
-            width: 1px;
-        }
     }
 }
 
@@ -264,13 +224,13 @@ a {
 .play {
     padding: 100px 0;
     position: relative;
-    // &::after {
-    //     content: '';
-    //     background-image: url(../assets/img/bg-line-bottom.svg);
-    //     position: absolute;
-    //     bottom: 0;
-    //     right: 0;
-    // }
+    &::after {
+        content: '';
+        background-image: url(../assets/img/bg-line-bottom.svg);
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
     .invite-message {
         font-size: 6.4rem;
         letter-spacing: .05em;
@@ -286,12 +246,6 @@ a {
         margin: 25px auto 0;
         font-weight: bold;
     }
-
-    // .section-bottom {
-    //     position: absolute;
-    //     right: 0;
-    //     bottom: 0;
-    // }
 }
 
 

@@ -127,12 +127,10 @@ a {
 
 //fv
 .fv {
-    // display: flex;
+    display: flex;
     position: relative;
-    padding-bottom: 70px;
     .fv-left-wrapper {
         margin-top: 180px;
-        margin-bottom: 79px;
     }
     .page-title-above {
         font-size: 3.2rem;
@@ -159,7 +157,6 @@ a {
 
     .fv-right-wrapper {
         text-align: right;
-        // margin-bottom: 70px;
         .news {
             font-size: 1.4rem;
             font-weight: bold;
@@ -190,12 +187,12 @@ a {
             background-color: $main-color;
             border-radius: 50%;
             position: absolute;
-            left: -13px;
+            left: -15px;
             bottom: 6px;
         }
         &::after {
             content: '';
-            left: -8px;
+            left: -10px;
             bottom: -8px;
             position: absolute;
             background-color: $main-color;

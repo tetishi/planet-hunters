@@ -127,12 +127,10 @@ a {
 
 //fv
 .fv {
-    // display: flex;
+    display: flex;
     position: relative;
-    padding-bottom: 70px;
     .fv-left-wrapper {
         margin-top: 180px;
-        margin-bottom: 79px;
     }
     .page-title-above {
         font-size: 3.2rem;
@@ -159,7 +157,6 @@ a {
 
     .fv-right-wrapper {
         text-align: right;
-        // margin-bottom: 70px;
         .news {
             font-size: 1.4rem;
             font-weight: bold;
@@ -181,26 +178,10 @@ a {
         color: $main-color;
         position: absolute;
         bottom: 47px;
-        // left: 15px; 
-        left: 30px;
-        &::before {
-            content: '';
-            width: 10px;
-            height: 10px;
-            background-color: $main-color;
-            border-radius: 50%;
-            position: absolute;
-            left: -13px;
-            bottom: 6px;
-        }
+        left: 15px; //left: 30px;
         &::after {
             content: '';
-            left: -8px;
-            bottom: -8px;
-            position: absolute;
-            background-color: $main-color;
-            height: 50px;
-            width: 1px;
+            border-bottom: 1px solid $;
         }
     }
 }
