@@ -1,0 +1,2 @@
+
+$('nav-sound').click

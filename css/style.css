@@ -117,15 +117,21 @@ a {
 
 .nav-sound {
   display: flex;
+  align-items: center;
   color: #BFBFBF;
   position: absolute;
   right: 30px;
   top: 100px;
+  cursor: pointer;
 }
 
 .nav-sound .sound {
   margin-right: 8px;
   font-size: 1.3rem;
+}
+
+.audio-on {
+  color: #fff;
 }
 
 .fv {
