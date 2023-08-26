@@ -229,14 +229,9 @@ a {
 .fv {
     // display: flex;
     position: relative;
-    // padding-bottom: 70px;
-    // height: calc(100vh - 100px);
-    position: relative;
+    padding-bottom: 70px;
+    height: calc(100vh - 100px);
     .fv-left-wrapper {
-        position: absolute;
-        top: 50%;
-        left: 10%;
-        transform: translateY(-50%);
         // margin-top: 180px;
         // margin-bottom: 79px;
     }
@@ -267,10 +262,6 @@ a {
     }
 
     .fv-right-wrapper {
-        position: absolute;
-        right: 30px;
-        bottom: 70px;
-
         text-align: right;
         // margin-bottom: 70px;
         border: 1px solid $main-color;
@@ -278,9 +269,10 @@ a {
         width: 360px;
         margin-left: auto;
         overflow: hidden;
-        background-color: #000;
+
 
         .news {
+            background-color: #000;
             font-size: 1.4rem;
             font-weight: bold;
             white-space: nowrap;

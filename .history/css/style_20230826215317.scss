@@ -235,7 +235,7 @@ a {
     .fv-left-wrapper {
         position: absolute;
         top: 50%;
-        left: 10%;
+        left: 0%;
         transform: translateY(-50%);
         // margin-top: 180px;
         // margin-bottom: 79px;
@@ -278,9 +278,10 @@ a {
         width: 360px;
         margin-left: auto;
         overflow: hidden;
-        background-color: #000;
+
 
         .news {
+            background-color: #000;
             font-size: 1.4rem;
             font-weight: bold;
             white-space: nowrap;

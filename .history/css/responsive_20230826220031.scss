@@ -235,11 +235,12 @@
 
     //fv
     .fv {
-        // padding-bottom: 50px;
+        // position: relative;
+        padding-bottom: 50px;
         // height: calc(100vh - 80px);
         .fv-left-wrapper {
-            // margin-top: 272px;
-            // margin-bottom: 196px;
+            margin-top: 272px;
+            margin-bottom: 196px;
         }
         .page-title-above {
             font-size: 2.2rem;
@@ -270,8 +271,6 @@
             width: 200px;
             // margin-left: auto;
             // overflow: hidden;
-            bottom: 50px;
-            right: 20px;
 
             .news {
                 // background-color: #000;
@@ -475,7 +474,6 @@
     //footer
     .footer {
         // background-color: #000;
-        padding-top: 40px;
         .footer-inner {
             // display: flex;
             // justify-content: space-between;

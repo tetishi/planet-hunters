@@ -239,12 +239,14 @@ a {
 
 .fv {
   position: relative;
-  padding-bottom: 70px;
+  position: relative;
 }
 
 .fv .fv-left-wrapper {
-  margin-top: 180px;
-  margin-bottom: 79px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
 }
 
 .fv .page-title-above {
@@ -277,15 +279,18 @@ a {
 }
 
 .fv .fv-right-wrapper {
+  position: absolute;
+  right: 30px;
+  bottom: 70px;
   text-align: right;
   border: 1px solid #00FFF5;
   width: 360px;
   margin-left: auto;
   overflow: hidden;
+  background-color: #000;
 }
 
 .fv .fv-right-wrapper .news {
-  background-color: #000;
   font-size: 1.4rem;
   font-weight: bold;
   white-space: nowrap;

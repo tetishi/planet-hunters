@@ -4,7 +4,7 @@ $(function() {
     //ページの読み込みが完了後にアニメーションを非表示・MVの高さを調整
     $(window).on('load', function() {
         var windowHeight = $(window).height();
-        $('.fv').height(windowHeight);
+        $('.fn').height(windowHeight);
         loading.delay('1000').fadeOut('2000');
     });
 
@@ -16,7 +16,7 @@ $(function() {
     //両面リサイズ時にMVの高さを調整
     $(window).resize(function() {
         var windowHeight = $(window).height();
-        $('.fv').height(windowHeight);
+        $('.mv').height(windowHeight);
     });
 });
 

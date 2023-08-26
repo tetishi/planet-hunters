@@ -16,7 +16,7 @@ $(function() {
     //両面リサイズ時にMVの高さを調整
     $(window).resize(function() {
         var windowHeight = $(window).height();
-        $('.fv').height(windowHeight);
+        $('.mv').height(windowHeight);
     });
 });
 
