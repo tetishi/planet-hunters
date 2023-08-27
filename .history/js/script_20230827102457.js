@@ -44,10 +44,5 @@ $('.nav-sound').click(function() {
 });
 
 
-//ページ内の指定の場所にスクロール
-$('#page-link a[href*="#"]').click(function() {
-    var elmHash = $(this).attr('href');
-    var pos = $(elmHash).offset().top;
-    $('body, html').animate({scrollTop: pos}, 500);
-    return false;
-})
+//header botton
+$

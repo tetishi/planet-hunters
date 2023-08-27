@@ -495,15 +495,15 @@ a {
         .footer-list {
             display: flex;
             align-items: center;
-            // .footer-item:first-of-type {
-            //     width: 160px;
-            // }
-            // ._51mw {
-            //     display: none;
-            // }
-            // #u_0_4_VB {
-            //     display: none;
-            // }
+            .footer-item:first-of-type {
+                width: 160px;
+            }
+            ._51mw {
+                display: none;
+            }
+            #u_0_4_VB {
+                display: none;
+            }
         }
     }
 }
