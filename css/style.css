@@ -59,15 +59,19 @@ a {
 }
 
 .play-btn {
-  display: block;
   width: 164px;
   color: #000;
   background-color: #00FFF5;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   text-align: center;
-  padding: 15px 0;
   font-size: 1.5rem;
   cursor: pointer;
+}
+
+.play-btn a {
+  display: block;
+  width: 100%;
+  padding: 15px 0;
 }
 
 .section-top {
@@ -275,6 +279,9 @@ a {
   font-size: 1.8rem;
   font-weight: bold;
   margin-top: 50px;
+}
+
+.fv .play-btn a {
   padding: 20px 0;
 }
 
@@ -446,6 +453,9 @@ a {
   letter-spacing: .05em;
   margin: 25px auto 0;
   font-weight: bold;
+}
+
+.play .play-btn a {
   padding: 20px 0;
 }
 
