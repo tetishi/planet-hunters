@@ -186,7 +186,7 @@ a {
     top: 0;
     left: 0;
     z-index: 999;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient();
 }
 .header-inner {
     display: flex;
@@ -218,7 +218,7 @@ a {
     // margin-top: 21px;
     position: absolute;
     right: 30px;
-    top: 94px;
+    top: 100px;
     // font-size: 1.3rem;
     cursor: pointer;
     .sound {

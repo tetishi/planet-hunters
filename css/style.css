@@ -199,6 +199,7 @@ a {
   top: 0;
   left: 0;
   z-index: 999;
+  background: linear-gradient(0deg, transparent 0%, black 100%);
 }
 
 .header-inner {
@@ -232,7 +233,7 @@ a {
   color: #BFBFBF;
   position: absolute;
   right: 30px;
-  top: 100px;
+  top: 94px;
   cursor: pointer;
 }
 
