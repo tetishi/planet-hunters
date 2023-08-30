@@ -65,7 +65,7 @@ a {
         width: 100%;
         padding: 15px 0;
         &:hover {
-            box-shadow: 0 0 18px 5px rgba(0, 255, 174, 0.6);
+            box-s
         }
     }
 }
@@ -503,15 +503,38 @@ a {
         padding: 0 30px;
         height: 110px;
 
-        .footer-text {
-            font-size: 1.4rem;
-        }
         .footer-list {
             display: flex;
-            // align-items: center;
-            .footer-item:nth-of-type(2) {
-                margin-right: 5px;
+            align-items: center;
+            .footer-item:first-of-type {
+                // width: 160px;
+
+
+
+
+
+                // span:last-of-type {
+                //     display: none !important;
+                // }
+    
             }
         }
     }
 }
+// ._51mw {
+//     display: none !important;
+// }
+// #u_0_4_VB {
+//     display: none !important;
+// }
+// td:last-of-type {
+//     display: none !important;
+// }
+
+// td {
+//     display: none !important;
+// }
+
+// #u_0_4_Cu {
+//     display: none !important;
+// }
