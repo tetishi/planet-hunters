@@ -58,6 +58,10 @@ a {
   background-size: 4px 4px;
 }
 
+.bgParallax .bgParallax-video {
+  height: 100vh;
+}
+
 .play-btn {
   width: 164px;
   color: #000;
