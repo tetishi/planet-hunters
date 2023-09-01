@@ -20,14 +20,6 @@ $(function() {
     });
 });
 
-//Loading
-// import { AtomSpinner } from 'epic-spinners'
-
-// <atom-spinner
-//   :animation-duration="1000"
-//   :size="60"
-//   color="#ff1d5e"
-// />
 
 //音声ファイルの再生、停止
 $('.nav-sound').click(function() {
