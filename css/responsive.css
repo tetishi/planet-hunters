@@ -24,7 +24,7 @@
     display: block;
   }
   .header-inner {
-    height: 80px;
+    height: 60px;
     padding: 0 20px;
   }
   .header-nav .header-list .header-item {
@@ -38,7 +38,7 @@
   }
   .nav-sound {
     right: 20px;
-    top: 66px;
+    top: 63px;
   }
   .nav-sound .sound {
     margin-right: 6px;
@@ -112,6 +112,9 @@
   .story-section .story-title {
     font-size: 2.4rem;
     margin: 45px 0 20px;
+  }
+  .story-section .last-story-title {
+    margin: 0 0 20px;
   }
   .story-section .story-image {
     width: 85%;
