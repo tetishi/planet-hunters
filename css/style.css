@@ -439,6 +439,7 @@ a {
 .story-section .story-description {
   font-weight: 500;
   letter-spacing: .05em;
+  line-height: 1.8;
 }
 
 .story-section .story-image {
